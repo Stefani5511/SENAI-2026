@@ -1,0 +1,11 @@
+//Clonar/Copiar Repositório WEB
+git clone https://github.com/Stefani5511/SENAI-2026.git
+
+//Atualizar Repositório WEB 
+git add . //Verifica arquivos alterados
+git commit -m "algum comentário" //Verifica as alterações nos arquivos
+git push //Envia as alterações para nuvem
+
+
+//Atualizar Repositório Local
+git pull
