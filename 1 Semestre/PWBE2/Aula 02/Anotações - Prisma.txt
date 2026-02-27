@@ -1,0 +1,9 @@
+//prisma @prisma/client
+npm i prisma @prisma/cliente
+npm i @prisma/adapter-mariadb
+
+npx prisma init --datasource-provider mysql
+
+npx prisma migrate dev
+
+npx prisma generate
