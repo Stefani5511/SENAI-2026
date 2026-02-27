@@ -26,7 +26,7 @@ const cadastrar = async (req, res) => {
     let ano = data.ano.toString();
 
     if (ano.length !== 4) {
-        return res.status(400).json({ msg: "Ano deve ter 4 dígitos" });
+        return res.status(400).json({ msg: "Ano deve ter 4 digitos" });
     }
 
     let caracteres = ano.split("");
