@@ -46,13 +46,7 @@ const cadastrar = async (req, res) => {
     return res.status(201).json(item);
 };
 
-    const item = await prisma.carros.create({
-        data
-    });
-
-    return res.status(201).json(item);
-
-    const listar = async (req, res) => {
+const listar = async (req, res) => {
     const lista = await prisma.carros.findMany();
     res.status(200).json(lista);
 };
