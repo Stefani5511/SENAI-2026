@@ -1,0 +1,69 @@
+{
+  "nome": "Sofá 3 Lugares",
+  "preco": 1899.90,
+  "categoria": "Sala",
+  "marca": "ComfortHouse"
+}
+
+{
+  "nome": "Mesa de Jantar",
+  "preco": 1299.50,
+  "categoria": "Sala de Jantar",
+  "marca": "WoodArt"
+}
+
+{
+  "nome": "Cadeira Estofada Luxo",
+  "preco": 349.90,
+  "categoria": "Sala de Jantar",
+  "marca": "Elegance"
+}
+
+{
+  "nome": "Guarda-Roupa 6 Portas",
+  "preco": 2099.00,
+  "categoria": "Quarto",
+  "marca": "Dormire"
+}
+
+{
+  "nome": "Cama Casal Box",
+  "preco": 1599.99,
+  "categoria": "Quarto",
+  "marca": "SleepWell"
+}
+
+{
+  "nome": "Escrivaninha Moderna",
+  "preco": 599.90,
+  "categoria": "Escritório",
+  "marca": "OfficePro"
+}
+
+{
+  "nome": "Estante para Livros",
+  "preco": 499.00,
+  "categoria": "Sala",
+  "marca": "DecoraMais"
+}
+
+{
+  "nome": "Rack para TV",
+  "preco": 799.90,
+  "categoria": "Sala",
+  "marca": "VisionHome"
+}
+
+{
+  "nome": "Poltrona",
+  "preco": 999.99,
+  "categoria": "Sala",
+  "marca": "RelaxMax"
+}
+
+{
+  "nome": "Mesa de Centro Vidro",
+  "preco": 399.90,
+  "categoria": "Sala",
+  "marca": "GlassDesign"
+}

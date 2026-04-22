@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html">← Voltar</a>
+  <h2>Detalhes do Evento</h2>
+</header>
+
+<main>
+
+  <div class="card detalhe-card">
+    <h3 id="titulo"></h3>
+    <p id="descricao"></p>
+    <p id="local"></p>
+  </div>
+
+  <div class="upload">
+    <h3>Upload de imagem</h3>
+    <input type="file" onchange="uploadImagem(event)">
+  </div>
+
+  <div id="galeria"></div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

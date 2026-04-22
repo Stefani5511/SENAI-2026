@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora de Filmes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar" style="background-color: #046cb6;" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Locadora</a>
+            <div class="navbar-nav">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">Filmes</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-dark text-white text-center py-5 mb-4">
+        <div class="container">
+            <h1 class="fw-light">Catálogo de Filmes</h1>
+            <button class="btn btn-primary mt-3" onclick="abrirModal()">+ Novo Filme</button>
+        </div>
+    </header>
+
+    <div class="container mb-4">
+        <div class="d-flex gap-2">
+            <input type="text" id="filtroGenero" class="form-control" placeholder="Filtrar por gênero">
+            <button class="btn btn-primary" onclick="filtrarGenero()">Filtrar</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4" id="dados"></div>
+    </div>
+
+    <div class="modal fade" id="modalFilme">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form id="cadFil">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Novo Filme</h5>
+                        <button type="button" class="btn-close" onclick="fecharModal()"></button>
+                    </div>
+
+                    <div class="modal-body d-flex flex-column gap-2">
+                        <input type="file" name="capa" class="form-control" accept="image/*">
+                        <input type="text" name="nome" class="form-control" placeholder="Nome" required>
+                        <input type="text" name="genero" class="form-control" placeholder="Gênero" required>
+                        <input type="number" name="ano" class="form-control" placeholder="Ano" required>
+                        <input type="text" name="classificacao" class="form-control" placeholder="Classificação" required>
+                        <input type="text" name="produtora" class="form-control" placeholder="Produtora" required>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success">Salvar</button>
+                        <button type="reset" class="btn btn-secondary" onclick="fecharModal()">Cancelar</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const modal = new bootstrap.Modal(document.getElementById('modalFilme'));
+
+        function abrirModal() {
+            modal.show();
+        }
+
+        function fecharModal() {
+            modal.hide();
+        }
+
+        function renderizarTabela(lista = filmes) {
+            const dados = document.getElementById("dados");
+            dados.innerHTML = "";
+
+            lista.forEach((f, i) => {
+                dados.innerHTML += `
+                <div class="col">
+                    <div class="card shadow-sm h-100">
+                        <img src="${f.capa}" class="card-img-top" style="height:250px; object-fit:cover;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">${f.nome}</h5>
+                            <p class="text-muted">${f.genero} ${f.ano}</p>
+                            <p>${f.classificacao}</p>
+                            <small>${f.produtora}</small>
+                            <button class="btn btn-danger w-100 mt-2" onclick="excluir(${i})">Excluir</button>
+                        </div>
+                    </div>
+                </div>
+                `;
+            });
+        }
+    </script>
+
+</body>
+</html>

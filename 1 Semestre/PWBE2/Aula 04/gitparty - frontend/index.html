@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gitparty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>Gitparty</h2>
+  <button onclick="abrirModal()">+ Novo</button>
+</header>
+
+<main id="lista"></main>
+
+<div id="modal" class="modal oculto">
+  <div class="janela">
+    <h3>Novo Evento</h3>
+
+    <input id="titulo" placeholder="Título">
+    <input id="descricao" placeholder="Descrição">
+    <input id="data" placeholder="Data">
+    <input id="local" placeholder="Local">
+    <input id="capacidade" type="number" placeholder="Capacidade">
+
+    <button onclick="criarEvento()">Salvar</button>
+    <button onclick="fecharModal()">Cancelar</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
