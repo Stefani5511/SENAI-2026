@@ -18,4 +18,5 @@ model Produto {
   preco     Float
   categoria String
   marca     String
+  imagem    String
 }

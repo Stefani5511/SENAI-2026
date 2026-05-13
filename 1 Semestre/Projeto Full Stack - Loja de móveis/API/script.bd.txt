@@ -2,68 +2,69 @@
   "nome": "Sofá 3 Lugares",
   "preco": 1899.90,
   "categoria": "Sala",
-  "marca": "ComfortHouse"
-}
-
+  "marca": "ComfortHouse",
+  "imagem": "https://tse3.mm.bing.net/th/id/OIP.-7xC7tk-dRoblFeo3iz6HwHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1,3&o=7&rm=3"
+},
 {
   "nome": "Mesa de Jantar",
   "preco": 1299.50,
   "categoria": "Sala de Jantar",
-  "marca": "WoodArt"
-}
-
+  "marca": "WoodArt",
+  "imagem": "https://tse2.mm.bing.net/th/id/OIP.ge8g-RWFp2xLADRZEqPawgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+},
 {
   "nome": "Cadeira Estofada Luxo",
   "preco": 349.90,
   "categoria": "Sala de Jantar",
-  "marca": "Elegance"
-}
-
+  "marca": "Elegance",
+  "imagem": "https://tse3.mm.bing.net/th/id/OIP.hCnVQEsZuPwk5t85RUYmCgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+},
 {
   "nome": "Guarda-Roupa 6 Portas",
   "preco": 2099.00,
   "categoria": "Quarto",
-  "marca": "Dormire"
-}
-
+  "marca": "Dormire",
+  "imagem": "https://a-static.mlcdn.com.br/1500x1500/guarda-roupa-casal-com-espelho-6-portas-4-gavetas-galaxy-espresso-moveis-freijo/madeiramadeira-openapi/275258/0a13add3a802205e2ca24c22fbdad479.jpg"
+},
 {
   "nome": "Cama Casal Box",
   "preco": 1599.99,
   "categoria": "Quarto",
-  "marca": "SleepWell"
-}
-
+  "marca": "SleepWell",
+  "imagem": "https://a-static.mlcdn.com.br/1500x1500/cama-box-casal-reconflex-conjugada-de-mola-ensacada-52x138x188cm-laguna/magazineluiza/237083300/709f3a8cc37ddadfeb3122576cc5be1c.jpg"
+},
 {
   "nome": "Escrivaninha Moderna",
   "preco": 599.90,
   "categoria": "Escritório",
-  "marca": "OfficePro"
-}
-
+  "marca": "OfficePro",
+  "imagem": "https://tse1.mm.bing.net/th/id/OIP.vzn-Kvge790mVdTbPuVHOgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+},
 {
   "nome": "Estante para Livros",
   "preco": 499.00,
   "categoria": "Sala",
-  "marca": "DecoraMais"
-}
-
+  "marca": "DecoraMais",
+  "imagem": "https://product-hub-prd.madeiramadeira.com.br/5%20%281%29.jpg/images/5%20%281%29.jpg"
+},
 {
   "nome": "Rack para TV",
   "preco": 799.90,
   "categoria": "Sala",
-  "marca": "VisionHome"
-}
-
+  "marca": "VisionHome",
+  "imagem": "https://decoracaobrasil.com/wp-content/uploads/2022/09/Rack-para-TV.png"
+},
 {
   "nome": "Poltrona",
   "preco": 999.99,
   "categoria": "Sala",
-  "marca": "RelaxMax"
-}
-
+  "marca": "RelaxMax",
+  "imagem": "https://images.tcdn.com.br/img/img_prod/483355/poltrona_tina_b_39081_3_a3fa866c77474f794adddf972dccfe3a.jpg"
+},
 {
   "nome": "Mesa de Centro Vidro",
   "preco": 399.90,
   "categoria": "Sala",
-  "marca": "GlassDesign"
+  "marca": "GlassDesign",
+  "imagem": "https://casaeconstrucao.org/wp-content/uploads/2017/11/mesa-de-centro-de-vidro-7-2.jpg"
 }
